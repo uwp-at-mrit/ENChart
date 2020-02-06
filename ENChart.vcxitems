@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -12,5 +12,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto\blowfish\cipher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto\blowfish\core.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto\blowfish\s_box.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)crypto\enckey.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\crtdoc.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\enctype.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\permitdoc.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\pubdoc.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)graphlet\filesystem\s63let.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\blowfish.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\blowfish\cipher.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\blowfish\core.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\blowfish\pi_box.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\blowfish\s_box.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)crypto\enckey.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\crtdoc.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\enctype.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\permitdoc.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\pubdoc.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\s63let.hpp" />
   </ItemGroup>
 </Project>
