@@ -37,4 +37,8 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\enchart\reader\pubdoc.hxx" />
     <ClInclude Include="$(MSBuildThisFileDirectory)graphlet\filesystem\s63let.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)stone\tongue\en-US\encerror.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)stone\tongue\zh-CN\encerror.resw" />
+  </ItemGroup>
 </Project>
