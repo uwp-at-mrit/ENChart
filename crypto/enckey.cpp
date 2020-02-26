@@ -1,6 +1,6 @@
 #include "crypto/enckey.hpp"
 #include "crypto/blowfish.hpp"
-#include "crypto/checksum.hpp"
+#include "checksum/crc32.hpp"
 
 #include "datum/string.hpp"
 #include "datum/bytes.hpp"
