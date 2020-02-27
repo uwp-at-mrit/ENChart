@@ -96,4 +96,12 @@
       <Filter>graphlet\filesystem</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)stone\tongue\en-US\encerror.resw">
+      <Filter>stone\tongue\en-US</Filter>
+    </PRIResource>
+    <PRIResource Include="$(MSBuildThisFileDirectory)stone\tongue\zh-CN\encerror.resw">
+      <Filter>stone\tongue\zh-CN</Filter>
+    </PRIResource>
+  </ItemGroup>
 </Project>
